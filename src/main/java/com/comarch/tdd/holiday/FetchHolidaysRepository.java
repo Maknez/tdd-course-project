@@ -12,7 +12,7 @@ public class FetchHolidaysRepository {
 
     public Set<Date> findAll() {
         int nextInt = ThreadLocalRandom.current().nextInt(0, 10);
-        if (nextInt >= 9) {
+        if (nextInt == 9) {
             throw new ServiceInvocationException("Can't connect to database");
         }
 
@@ -27,4 +27,5 @@ public class FetchHolidaysRepository {
 
         return result;
     }
+
 }
