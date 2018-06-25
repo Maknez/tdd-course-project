@@ -5,6 +5,6 @@ import java.util.Set;
 
 public interface ConfigurableFilter {
 
-    Set<LocalDate> filter(Set<LocalDate> dateList, FilterCriteria filterCriteria);
+    Set<LocalDate> filter(Set<LocalDate> dateSet, FilterCriteria filterCriteria);
 
 }

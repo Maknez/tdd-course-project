@@ -1,4 +1,4 @@
-package com.comarch.tdd.holiday;
+package com.comarch.tdd.holiday.repository;
 
 import com.comarch.tdd.holiday.exception.ServiceInvocationException;
 
