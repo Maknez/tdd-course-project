@@ -1,6 +1,6 @@
 package com.comarch.tdd.date;
 
-enum FilterCriteria {
+public enum FilterCriteria {
 
     WEEKENDS, WORKING_DAYS
 
